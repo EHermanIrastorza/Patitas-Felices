@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.encabezado{
+    font-size: 3rem; /* Tamaño grande para el encabezado */
+  font-weight: bold; /* Negrita para el texto */
+  text-align: center; /* Centra el texto */
+  color: #FFFFFF;
+  -webkit-background-clip: text; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease, text-shadow 0.3s ease; 
+}
+
+
+.encabezado:hover {
+  transform: scale(1.05); 
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; 
+  align-items: center; 
+  justify-content: center;
+  border-radius: 15px;
+  padding: 40px; 
+  background-color: rgba(237, 236, 236, 0.912); 
+  width: 80%; 
+  height: auto; 
+  max-height: 90vh; 
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Titles1{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em; 
+  font-weight: normal; 
+  color: #342b38; 
+   margin: 0px 0px 10px 10px; 
+  line-height: 1.3; 
+  letter-spacing: 1px;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; 
+  align-items: center; 
+  justify-content: center;
+  border-radius: 15px;
+  padding: 40px; 
+  background-color: rgba(237, 236, 236, 0.912); 
+  width: 80%; 
+  height: auto; 
+  max-height: 90vh; 
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

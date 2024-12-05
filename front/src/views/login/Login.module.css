@@ -1,0 +1,69 @@
+
+.formularioContainer {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 15px; 
+    padding: 40px; 
+    background-color: rgba(240, 240, 240, 0.85); 
+    width: 80%; 
+    max-width: 500px; 
+    height: auto; 
+    max-height: 90vh;
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo del formulario */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #A9D6B9; /* Color de fondo del formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+    border-radius: 8px; /* Bordes redondeados para el formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del formulario */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+  }
+  
+  /* Estilo de los labels */
+  .formulariolabel {
+    display: block; /* Asegura que las etiquetas estén en su propia línea */
+    margin-bottom: 8px; /* Espacio debajo de las etiquetas */
+    color: #333; /* Color de texto de las etiquetas */
+  }
+  
+  /* Estilo de los campos de entrada */
+  .formularioinput[type="text"],
+  .formulario input[type="password"] {
+    width: 95%; /* Hace que el campo de entrada ocupe el ancho completo del formulario */
+    padding: 10px; /* Espaciado interno de los campos de entrada */
+    border: 1px solid #ccc; /* Borde de los campos de entrada */
+    border-radius: 4px; /* Bordes redondeados para los campos de entrada */
+    margin-bottom: 16px; /* Espacio debajo de los campos de entrada */
+  }
+  
+  /* Estilo de los mensajes de error */
+  .formulario .error {
+    color: #D4B483; /* Color de los mensajes de error */
+    margin-bottom: 16px; /* Espacio debajo de los mensajes de error */
+  }
+  
+  /* Estilo del botón de envío */
+  .formulariobutton[type="submit"] {
+    background-color: #D4B483; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde para el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+  }
+  
+  /* Estilo del botón en estado de deshabilitado */
+  .formulario button:disabled {
+    background-color: #ccc; /* Color de fondo cuando el botón está deshabilitado */
+    cursor: not-allowed; /* Cambia el cursor a una señal de prohibición */
+  }

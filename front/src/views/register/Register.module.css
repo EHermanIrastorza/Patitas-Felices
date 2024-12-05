@@ -1,0 +1,70 @@
+/* Estilo del contenedor principal que centra el formulario */
+.formularioContainer {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    flex-wrap: nowrap; /* Evita el cambio de línea de los elementos */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 40px; /* Espaciado interno del contenedor */
+    background-color: rgba(240, 240, 240, 0.85); /* Fondo con transparencia */
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    max-width: 500px; /* Ancho máximo del formulario */
+    height: auto; /* Altura automática */
+    max-height: 90vh; /* Altura máxima del formulario */
+    margin: 20px auto; /* Centra el contenedor en la pantalla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo del formulario */
+  .formulario {
+    background-color: #A9D6B9; /* Color de fondo del formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  /* Estilo de los labels */
+  .label {
+    display: block; /* Coloca los labels en su propia línea */
+    margin-bottom: 8px; /* Espaciado debajo de los labels */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilo de los campos de entrada */
+  .input {
+    width: 95%; /* Ancho completo del campo de entrada */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 16px; /* Espaciado debajo de los campos */
+  }
+  
+  /* Estilo de los mensajes de error */
+  .error {
+    color: violet; /* Color del texto de error */
+    margin-bottom: 16px; /* Espaciado debajo de los mensajes de error */
+  }
+  
+  /* Estilo del botón de envío */
+  .button {
+    background-color: #D4B483; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  /* Estilo del botón en estado deshabilitado */
+  .button:disabled {
+    background-color: #ccc; /* Color de fondo cuando el botón está deshabilitado */
+    cursor: not-allowed; /* Cursor de no permitido */
+  }

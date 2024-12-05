@@ -1,0 +1,85 @@
+.formularioContainer {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 15px;
+    padding: 40px; 
+    background-color: rgba(240, 240, 240, 0.85);
+    width: 80%; 
+    max-width: 500px; 
+    height: auto; 
+    max-height: 90vh; 
+    margin: 10px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario {
+    background-color: #A9D6B9; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  /* Estilo de los labels */
+  .label {
+    display: block; /* Coloca los labels en su propia línea */
+    margin-bottom: 1px; /* Espaciado debajo de los labels */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilo de los campos de entrada */
+  .input {
+    width: 95%; /* Ancho completo del campo de entrada */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 2px; /* Espaciado debajo de los campos */
+  }
+  
+  /* Estilo de los mensajes de error */
+  .error {
+    color: violet; /* Color del texto de error */
+    margin-bottom: 16px; /* Espaciado debajo de los mensajes de error */
+  }
+  
+  /* Estilo del botón de envío */
+  .button {
+    background-color: #D4B483; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  /* Estilo del botón en estado deshabilitado */
+  .button:disabled {
+    background-color: #ccc; /* Color de fondo cuando el botón está deshabilitado */
+    cursor: not-allowed; /* Cursor de no permitido */
+  }
+
+  .encabezado{
+    font-size: 3rem; /* Tamaño grande para el encabezado */
+  font-weight: bold; /* Negrita para el texto */
+  text-align: center; /* Centra el texto */
+  color: #FFFFFF;
+  -webkit-background-clip: text; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease, text-shadow 0.3s ease; 
+}
+
+
+.encabezado:hover {
+  transform: scale(1.05); 
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+

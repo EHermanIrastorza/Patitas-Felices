@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between; 
+    background-color: #A9D6B9;
+
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    font-size: 1em; 
+  font-weight: normal; 
+  color: #161616; 
+   margin: auto; 
+  line-height: 1.3; 
+  text-align: center; 
+  letter-spacing: 1px;
+ }
